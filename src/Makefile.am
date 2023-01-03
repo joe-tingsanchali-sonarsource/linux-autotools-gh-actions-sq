@@ -1,3 +1,3 @@
 bin_PROGRAMS = sonar_scanner_example
-sonar_scanner_example_SOURCES = main.cpp, assert.cpp
+sonar_scanner_example_SOURCES = main.cpp
 

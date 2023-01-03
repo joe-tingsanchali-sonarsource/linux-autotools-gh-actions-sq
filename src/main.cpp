@@ -25,21 +25,3 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 
-// test1
-int LogMessage( int         logLevel,
-                int         facilityId,
-                unsigned long logID,
-                const char* fileName,
-                int         lineNum,
-                const char* funcName,
-                const char* format,
-                ... );
-// test2
-int LogMessage( int         logLevel,
-                int         facilityId,
-                unsigned long logID,
-                const char* fileName,
-                int         lineNum,
-                const char* funcName,
-                const char* format,
-                ... ) __attribute__(( format(printf,7,8) ));
