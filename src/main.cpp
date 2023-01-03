@@ -3,6 +3,17 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
+// Generic function with Loggable extraData
+int LogMessage( int         logLevel,
+                       int         facilityId,
+                       unsigned long logID,
+                       const char* fileName,
+                       int         lineNum,
+                       const char* funcName,
+                       const Loggable& extraData,
+                       const char* format,
+                       ... );
+
   int num = argc - 1;
 
   if (num == 0) {

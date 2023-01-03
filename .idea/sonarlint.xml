@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="analysisLogsEnabled" value="true" />
+    <option name="bindingEnabled" value="true" />
+    <option name="projectKey" value="joe-tingsanchali-sonarsource_linux-autotools-gh-actions-sq_AYV5XDcnA3m68oVjEjwz" />
+    <option name="verboseEnabled" value="true" />
+    <option name="serverId" value="ee98" />
+  </component>
+</project>
