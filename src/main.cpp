@@ -24,10 +24,16 @@ int main(int argc, char* argv[]) {
 
   return 0;
 }
-
-void MyPrintf ( char * pFormat, ... )	// Noncompliant
+//test1
+void MyPrintf1 ( char * pFormat, ... )	// Noncompliant
 {
     // ...
 }
-
-
+//test2
+void MyPrintf2 ( int pFormat,
+                 char * anotherOne,
+                 int anotherOne2,
+                ... ) __attribute__((aligned((16))));	// Noncompliant
+{
+    // ...
+}
