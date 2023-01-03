@@ -33,7 +33,7 @@ void MyPrintf1 ( char * pFormat, ... )	// Noncompliant
 void MyPrintf2 ( int pFormat,
                  char * anotherOne,
                  int anotherOne2,
-                ... ) __attribute__((aligned((16))));	// Noncompliant
+                ... ) __attribute__((aligned(16)))	// Noncompliant
 {
     // ...
 }
