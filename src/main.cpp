@@ -10,7 +10,6 @@ int LogMessage( int         logLevel,
                        const char* fileName,
                        int         lineNum,
                        const char* funcName,
-                       const Loggable& extraData,
                        const char* format,
                        ... );
 
