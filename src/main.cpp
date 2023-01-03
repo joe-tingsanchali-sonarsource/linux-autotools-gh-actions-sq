@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
+//test2
+void MyPrintf2 ( char * pFormat, ...) __attribute__(( format(printf,1,2)));	// Noncompliant
 
   int num = argc - 1;
 
@@ -29,8 +31,8 @@ void MyPrintf1 ( char * pFormat, ... )	// Noncompliant
 {
     // ...
 }
-//test2
-void MyPrintf2 ( char * pFormat, ...) __attribute__(( format(printf,1,2)))	// Noncompliant
-{
-    // ...
-}
+////test2
+//void MyPrintf2 ( char * pFormat, ...) __attribute__(( format(printf,1,2)))	// Noncompliant
+//{
+//    // ...
+//}
